@@ -15,6 +15,12 @@
         android:layout_height="wrap_content"
         android:hint="Username"/>
 
+    <EditText
+        android:id="@+id/edtpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"/>
+
     <Button
         android:id="@+id/btnshow"
         android:text="Show"

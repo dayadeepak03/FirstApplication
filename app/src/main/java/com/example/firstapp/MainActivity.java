@@ -10,13 +10,14 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
 
     Button btnshow;
-    EditText edtmsg;
+    EditText edtmsg,edtpass;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
         edtmsg = findViewById(R.id.edtuname);
+        edtpass = findViewById(R.id.edtpass);
         btnshow = findViewById(R.id.btnshow);
 
         btnshow.setOnClickListener(new View.OnClickListener() {
